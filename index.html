@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>G-Dragon superfan</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="top-left center-content">
+        <img
+          src="Images/Album1.png"
+          id="Text1"
+          onclick="changeAlbum1()"
+          class="clickable5"
+        />
+      </div>
+      <div class="top-middle center-content">
+        <img
+          src="Images/Album2.png"
+          id="Text2"
+          onclick="changeAlbum2()"
+          class="clickable2"
+        />
+      </div>
+      <div class="top-right center-content">
+        <img
+          src="Images/Album3.png"
+          id="Text3"
+          onclick="changeAlbum3()"
+          class="clickable3"
+        />
+      </div>
+    </div>
+
+    <div class="middle">
+      <div class="column">
+        <div class="test center-content">
+          <img
+            src="Images/Album4.png"
+            id="Text4"
+            onclick="changeAlbum4()"
+            class="clickable4"
+          />
+        </div>
+        <div class="test center-content">
+          <img
+            src="Images/Lightstick1.png"
+            id="Text8"
+            onclick="changeLightstick1()"
+            class="clickable1"
+          />
+        </div>
+        <div class="test center-content">
+          <img
+            src="Images/Album5.png"
+            id="Text5"
+            onclick="changeAlbum5()"
+            class="clickable1"
+          />
+        </div>
+      </div>
+      <div class="video center-content">
+        <iframe
+          class="videosize"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ixU40WqmzeY?si=0lqLxqYs3B5O9F1V"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          id="video"
+        ></iframe>
+        <img class="videosize gone" id="photo" />
+      </div>
+      <div class="column">
+        <div class="test center-content">
+          <img
+            src="Images/Album6.png"
+            id="Text6"
+            onclick="changeAlbum6()"
+            class="clickable1"
+          />
+        </div>
+        <div class="test center-content">
+          <img
+            src="Images/Lightstick2.png"
+            class="clickable14"
+            id="Text9"
+            onclick="changeLightstick2()"
+          />
+        </div>
+        <div class="test center-content">
+          <img
+            src="Images/Album7.png"
+            id="Text7"
+            onclick="changeAlbum7()"
+            class="clickable7"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom center-content">
+      <div class="box center-content" id="box" onclick="reset()">
+        <h1 id="Text"></h1>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<audio src="sounds/click.wav" id="my_click"></audio>
